@@ -1,0 +1,99 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 1;
+    background-color: #efefef;
+}
+
+header {
+    background-color: #364552;
+    color: azure;
+    padding: 3rem 2rem;
+   }
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+ol.menu {
+    margin:10px 0px 10px 0px;
+    float: right;
+}
+ol.menu li {
+    float:left;
+    line-height:29px;
+    margin:0px 0px 0px 0px;  
+    width:193px;
+    text-align:center; 
+    }
+
+span.clr-1 {
+     color:#94adb7;
+    }
+
+.slogan h3 {
+    font-size: 2rem;
+    text-align: center;
+    color: red;
+}
+
+.slogan h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+ }
+
+ .container {
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #efefef;
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: rgb(212, 214, 205);
+    margin: 2rem 0;
+    margin-left: 5%;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    float: left;
+    height: 400px;
+}
+p.text {
+    text-align: justify;
+    width: 370px;
+}
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+section article p {
+    margin: 1rem;
+}
+
+footer{
+background-color: #222;
+padding: 3rem;
+color: #fff;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: cornflowerblue;
+}
